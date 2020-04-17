@@ -1,0 +1,5 @@
+#git clone https://github.com/alexis600/test0.git
+#touch hello.html
+#sudo snap install atom --classic
+git commit -m "hola1"
+git push 
