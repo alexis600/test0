@@ -2,4 +2,7 @@
 #touch hello.html
 #sudo snap install atom --classic
 git commit -m "hola1"
-git push 
+git push
+git pull
+git log
+git reset --hard <nro hash de commit>
