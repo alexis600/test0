@@ -9,3 +9,7 @@ git reset --hard <nro hash de commit>
 la forma piola de add a la vez de commit es git commit -am "added too"
 git reflog te muestra las referencias
 Muestra el html color picker
+
+git branch te muestra las branch y marca donde estas
+git branch nombre te crea una
+git checkout nombre te para en la branch q creaste

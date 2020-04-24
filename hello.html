@@ -3,12 +3,57 @@
   <head>
     <title>sitio web </title>
 
-    <style> // la tercera opcion, esto podria ser el styles.css referenciado mas abajo
+    <style>  /*la tercera opcion, esto podria ser el styles.css referenciado mas abajo */
         h2{
           color:green;
           text-align: right;
         }
+        div{
+          color:blue;
+          margin: 30px;
+          padding: 100px;
+        }
+        div{
+          font-family: Arial, verdana, sans-serif;
+          font-size: 50px;
+          font-weight: bold;
+
+          border: 3px dotted yellow; /* solid yellow*/
+
+
+        }
     </style>
+
+    <style>
+      table{
+        border: 4px solid pink;
+        border-collapse: collapse; <!--//para que no se vean dos bordes -->
+        width: 500px; // o en porcentajes
+        text-align: center;
+      }
+      th,td{
+        border: 1px, solid black;
+        /* padding: 15px;*/
+      }
+      th{
+        background-color: lightgray;
+
+      }
+    </style>
+
+    <style>
+      #primero {
+        font-size: 36px;
+      }
+      #segundo {
+        font-size: 24px;
+      }
+      #tercero {
+        font-size: 12px;
+      }
+      .negrita {
+        font-weight: bold;
+      }
 
   </head>
   <body>
@@ -16,7 +61,17 @@
     asdasd
     no entendi el error de mierda del conflicto
 
+      <div id="primero">
+        esto es lo <span class="negrita">primero</span>!
+      </div>
 
+      <div id="segundo">
+        esto es lo <span class="negrita">segundo</span>!
+      </div>
+
+      <div id="tercero">
+        esto es lo <span class="negrita">tercero</span>!
+      </div>
 
 
 
@@ -27,7 +82,7 @@
       <h6>  titulito  </h6>
       <ul "lista desordenada"> <li>item </li> </ul>
       <ol "lista ordenada"> <li>item </li> </ol>
-      <img src="fuente.jpg" height="200" width="300" width="50%">
+      <!-- <img src="fuente.jpg" height="200" width="300" width="50%"> -->
       <table>
         <tr>
           <th>Nombre</th>
