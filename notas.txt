@@ -13,3 +13,11 @@ Muestra el html color picker
 git branch te muestra las branch y marca donde estas
 git branch nombre te crea una
 git checkout nombre te para en la branch q creaste
+
+
+
+
+
+
+
+A ver si hace el merge completo
