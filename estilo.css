@@ -1,0 +1,51 @@
+/*a ver ahora*/
+
+.indice {
+  font-size: 50px;
+  font-weight: bold;
+  font: Arial, comic, times new roman, comic;
+}
+.tablita {
+  border: 4px solid pink;
+  border-collapse: collapse; /* <!--//para que no se vean dos bordes --> */
+  width: 25%; /* o en porcentajes */
+  text-align: center;
+
+
+}
+
+td{
+    border: 1px solid black;
+    padding: 15px;
+
+}
+
+
+th,td{
+  background-color: lightblue;
+
+}
+
+
+#probandoid {
+  font-style: italic;
+
+}
+
+#listaDesordenada{
+  font-weight: lighter;
+}
+
+.listaOrdenada {
+  font-weight: bold;
+}
+
+h2{
+  color:blue;text-align:right;
+  font-size: 50px
+}
+
+
+.verde { background-color: #82FA58}
+
+.conimagen {border: 50px dotted red}
