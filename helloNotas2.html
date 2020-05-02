@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- <link rel="stylesheet" href="estilo.css"/> -->
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+      input  [type=text]{
+        background-color: green;
+      }
+
+      input  [type=number]{
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- antes estaban los div class="header","nav", "section", "footer"
+    pero ahora van todas como tags nuevos, sin necesidad de class.
+    ademas estan video, audio, datalist -->
+    <form>
+      <div>
+        <input type="text" name="nombre" placeholder="ponga su nombre">
+        <input type="password" name="contraseña" placeholder="contraseña">
+      </div>
+      <div>
+          Color favorito
+          <input type="radio" name="color" value="red">rojo
+          <input type="radio" name="color" value="blue">azul
+          <input type="radio" name="color" value="green">verde
+      </div>
+      <div>
+          <input name="Argentina" list="paises" placeholder="elija su sucursal">
+          <datalist id="paises">
+            <option value="chetoslovaquia"></option>
+            <option value="peronistan"></option>
+          </datalist>
+
+      </div>
+    </form>
+
+    <div>
+        <ol>
+          <li>item1</li>
+          <li>item2</li>
+          <ul>
+            <li>subitemA</li>
+            <li>subitemB</li>
+          </ul>
+          <li>item3</li>
+        </ol>
+    </div>
+
+    <div>
+      <input type="text">
+      <input type="number" name="numero" placeholder="numero azul">
+    </div>
+  </body>
+</html>
