@@ -16,3 +16,11 @@ git checkout nombre te para en la branch q creaste
   antes de pushear la branch hacer
   git push --set-upstream origin rama
 git merge nombre trae todas las cosas de esa branch
+
+Cuando hay cosas en un sitio "remoto" que creo que el github repo
+git fetch //trae los commit que me faltan
+git merge origin / master // mergea mi version del repo con la que traje con fetch
+esto es lo que hace un git pull
+
+Despues explica forks (cada version trabajada del repo)
+pull request // desde la interfaz grafica

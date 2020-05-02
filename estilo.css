@@ -49,3 +49,37 @@ h2{
 .verde { background-color: #82FA58}
 
 .conimagen {border: 50px dotted red}
+
+
+/*si pongo asi es lo que este anidado y si pongo > es solo para esa estructura, no mas adentro del indentado. Solo al inmediate child*/
+
+ol > li { color: red} /* con > seria solo al li y con espacio, seria a todo lo que haya adentro. */
+
+/*ol li { color: red}*/
+
+input  [type=text]{background-color: green;}
+
+input  [type=number]{background-color: lightblue;}
+
+
+/*
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+{ }
+*/
