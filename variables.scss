@@ -1,0 +1,48 @@
+$colorListas:red;
+$colorDiv:yellow;
+
+ul{
+  font-size: 25px;
+  color: $colorListas;
+}
+
+ol{
+  font-size: 35px;
+  color: $colorListas;
+}
+
+#divTest{
+font-size:40px;
+
+  p {
+    color:$colorDiv;
+  }
+
+}
+
+%message {
+  font-family: sans-serif;
+  font-size: 8px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 20px;
+  margin: 20px;
+}
+
+.success {
+  @extend %message;
+  background-color: green;
+
+}
+
+.warning {
+  @extend %message;
+  background-color: orange;
+
+}
+
+.error {
+  @extend %message;
+  background-color: red;
+
+}
