@@ -24,3 +24,7 @@ esto es lo que hace un git pull
 
 Despues explica forks (cada version trabajada del repo)
 pull request // desde la interfaz grafica
+
+
+despues dio programacion scss q es la version pro del css
+con $variable=valor entonces reutilizamos $variable

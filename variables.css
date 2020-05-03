@@ -1,15 +1,15 @@
 ul {
   font-size: 25px;
-  color: red; }
+  color: lightgray; }
 
 ol {
   font-size: 35px;
-  color: red; }
+  color: lightgray; }
 
 #divTest {
   font-size: 40px; }
   #divTest p {
-    color: yellow; }
+    color: green; }
 
 .success, .warning, .error {
   font-family: sans-serif;
