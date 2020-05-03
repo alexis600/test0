@@ -24,6 +24,41 @@
           background-Color: red;
         }
 
+        @media print {
+          .printOnly{
+            display:none;
+          }
+        }
+        @media screen {
+          .screenOnly{
+            display:none;
+          }
+        }
+        p{
+          font-size:30px;
+          font-weight:bold;
+          font-type:Arial;
+        }
+
+        @media (min-width:600px) {
+          h1::before{
+            content: Welcome to Americana;
+          }
+        }
+
+
+        @media (max-width:599px) {
+          h1::before{
+            content: Welcome;
+          }
+        }
+
+        h1{
+          font-color:green;
+          font-family:comic;
+          font-weight:bold;
+        }
+
 
     </style>
   </head>
@@ -32,6 +67,17 @@
       <input type="number" name="dos" placeholder="222">
       <div class="mas abajo">
           <button type="button" name="button">Boton feo</button>
+      </div>
+
+      <div class="probandoEstilosDisplay">
+        <p class="printOnly">Este parrafo no impresion y en pantalla si </p>
+        <p class=screenOnly>Este parrafo no en pantalla y en impresora si</p>
+
+      </div>
+
+      <div>
+        <h1>test</h1>
+
       </div>
   </body>
 </html>
