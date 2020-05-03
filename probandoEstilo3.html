@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- no entiendo esto de arriba como afecta, no puedo test -->
+    <title>Probando3</title>
+    <style>
+      div {
+        background-color:red;
+        height:150px;
+      }
+      h2 {
+        font-style:italic;
+        font-family:Arial;
+        font-weight:bold;
+        font-size:50;
+      }
+
+
+
+      @media (min-width:600px) {
+        h1::before{
+          content: "Welcome to Americana";
+        }
+      }
+
+
+      @media (max-width:599px) {
+        h1::before{
+          content: "Welcome";
+        }
+      }
+
+      h1{
+        font-size:80px;
+        font-family:comic-sans, verdana, times new roman;
+        font-weight:bold;
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>tercera prueba lpm</p>
+      <h2>cuarta prueba lpm</h2>
+    </div>
+    <h2>quinta prueba lpm</h2>
+
+    <h1></h1>
+  </body>
+
+</html>
