@@ -1,18 +1,18 @@
 #def DisplayBoard(board):
-#
+# ASDASD
 # la función acepta un parámetro el cual contiene el estado actual del tablero
 # y lo muestra en la consola
 #
 
 #def EnterMove(board):
 #
-# la función acepta el estado actual del tablero y pregunta al usuario acerca de su movimiento, 
+# la función acepta el estado actual del tablero y pregunta al usuario acerca de su movimiento,
 # verifica la entrada y actualiza el tablero acorde a la decisión del usuario
 #
 
 #def MakeListOfFreeFields(board):
 #
-# la función examina el tablero y construye una lista de todos los cuadros vacíos 
+# la función examina el tablero y construye una lista de todos los cuadros vacíos
 # la lista esta compuesta por tuplas, cada tupla es un par de números que indican la fila y columna
 #
 
@@ -49,19 +49,19 @@ linea = "|       "
 
 def impBorde():
     print (3*borde, sep="", end="+")
-    
+
 def impLinea():
     print ("\n",3*linea, sep = "", end = "| \n")
- 
- 
-def DisplayBoard(board):   
+
+
+def DisplayBoard(board):
     impBorde()
     for i in range (3):
         impLinea()
         print ("|", end = "")
         for j in range (3):
             print ("   ", board[i][j],"   ", sep = "", end = "|")
-            
+
         #print ("\n")
         impLinea()
         impBorde()
@@ -91,12 +91,11 @@ def EnterMove(board):
         movimiento = int(input("\n Ingrese nro: "))
         if movimiento > 0 and movimiento < 10:
             break
-    
+
     ficha = correspondencia(movimiento)
     a, b = int(ficha[0]), int(ficha[1])
     print (board[int(ficha[0])] [int(ficha[1])])
     #print(a, b)
-    
-    
+
+
 EnterMove(tablero)
-    
