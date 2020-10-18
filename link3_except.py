@@ -51,7 +51,7 @@ def saludo(idioma):
     idioma_func = {"es": saludo_es, "en": saludo_en}
     return idioma_func[idioma]
     
-saludar = saludo("en")
+saludar = saludo("es")
 saludar()
 
 
@@ -70,6 +70,8 @@ import re
 print (re.search(r"\d\d","kilo45"))
 
 patron = re.compile("\d\d")
+print(str(patron)+"\n"*40)
+
 
 print (patron.search("kilo89").group())
 
